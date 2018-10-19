@@ -1,0 +1,25 @@
+{
+  "name": "webpack_poc",
+  "version": "1.0.0",
+  "description": "a poc on using webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mechbullgt/webpack_poc.git"
+  },
+  "author": "Maqbool Ansari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mechbullgt/webpack_poc/issues"
+  },
+  "homepage": "https://github.com/mechbullgt/webpack_poc#readme",
+  "devDependencies": {
+    "webpack": "^4.21.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
